@@ -1,0 +1,13 @@
+[package]
+name = "uctf"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# this is the development version of Yew
+yew = { git = "https://github.com/yewstack/yew/" }
+axum = { git = "https://github.com/tokio-rs/axum" }
+tokio = { version = "1", features = ["full"] }
+cargo_toml = "0.19.2"
